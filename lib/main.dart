@@ -1,25 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_time/pages/home.dart';
+import 'package:quiz_time/pages/quiz.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const Quiz());
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-        title: 'Quiz Time',
-        debugShowCheckedModeBanner: false,
-        // theme: ThemeData(primarySwatch: Colors.),
-        home: Home(),
-    );
-  }
-}
-
-
 
 
 
