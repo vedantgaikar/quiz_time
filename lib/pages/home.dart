@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
   Home(this.startQuiz, {super.key});
-  void Function()? startQuiz;
+  final void Function()? startQuiz;
 
   @override
   Widget build(BuildContext context) {
