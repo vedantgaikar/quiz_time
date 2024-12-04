@@ -1,16 +1,35 @@
-# quiz_time
+# Quiz Time - Flutter Quiz App
 
-A new Flutter project.
+**Quiz Time** is a dynamic and interactive quiz app developed using Flutter. Users can answer multiple-choice questions (MCQs) and receive a detailed summary of their performance, including chosen answers, correct answers, and the total score.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Clean and Interactive Interface**: Simple and visually appealing UI.
+- **Dynamic Question Flow**: Questions are displayed one at a time, with options shuffled.
+- **Result Summary**:
+  - Displays chosen answers vs. correct answers.
+  - Shows the total score and percentage.
+- **Restart Quiz Functionality**: Allows users to restart the quiz with a single click.
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Key Files
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **`main.dart`**: Entry point for the application.
+- **`home.dart`**: Home screen displaying the "Start Quiz" button.
+- **`questionsPage.dart`**: Manages the display of quiz questions and answers.
+- **`resultScreen.dart`**: Displays the summary of results and score after the quiz ends.
+- **`questions.dart`**: Defines the quiz data model.
+
+### Code Highlights
+
+- **State Management**: The quiz flow is managed using `setState` within the `Quiz` widget.
+- **Dynamic UI**: Questions and their options are dynamically generated.
+- **Reusable Components**: Modular design using widgets like `AnswerButton` and `SummaryDetails`.
+
+## Installation & Usage
+
+### Prerequisites
+- Flutter SDK installed.
+- A working development environment (e.g., VSCode, Android Studio).
+
